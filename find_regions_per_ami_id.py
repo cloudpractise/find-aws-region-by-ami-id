@@ -15,5 +15,5 @@ for i in regions:
     if str(response) != '[]':
         print "region_name with ami_id is ", i
         break
-#usage 
-$python find-aws-region-by-ami-id ami_id
+# usage 
+# $python find-aws-region-by-ami-id ami_id
